@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+
+    <link rel="icon" href="Icons/Symbol_2.png" type="image/png">
+<link rel="shortcut icon" href="Icons/Symbol_2.png" type="image/png">
+
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <h1>
+        URL SHORTENER
+        <span class="author">by Harshil Gurjar</span>
+    </h1>
+</header>
+
+<!-- HERO / TOP SECTION -->
+<section class="main-section hero-section">
+
+    <p class="subtitle">Paste your URL below</p>
+
+    <input
+        type="text"
+        id="longUrl"
+        placeholder="Enter the long URL here"
+    >
+
+    <button onclick="shortenUrl()">Convert the link</button>
+
+    <!-- OUTPUT -->
+    <div id="result" class="result-box"></div>
+
+    <p class="description">
+        URL Shortener is a free tool to shorten URLs and generate short links.<br>
+        URL Shortener allows you to create a shortened link making it easy to share.
+    </p>
+
+</section>
+
+<!-- FEATURES SECTION (SCROLL DOWN) -->
+<section class="features-section">
+
+    <div class="features-grid">
+
+        <div class="feature">
+            <img src="Icons/Easy.png" alt="Easy">
+            <h3>Easy</h3>
+            <p>URL Shortener is easy and fast, enter the long link to get your shortened link</p>
+        </div>
+
+        <div class="feature">
+            <img src="Icons/Shortened.png" alt="Shortened">
+            <h3>Shortened</h3>
+            <p>Use any link, no matter what size, URL Shortener always shortens</p>
+        </div>
+
+        <div class="feature">
+            <img src="Icons/Secure.png" alt="Secure">
+            <h3>Secure</h3>
+            <p>It is fast and secure, our service has HTTPS protocol and data encryption</p>
+        </div>
+
+        <div class="feature">
+            <img src="Icons/Statistics.png" alt="Statistics">
+            <h3>Statistics</h3>
+            <p>Check the number of clicks that your shortened URL received</p>
+        </div>
+
+        <div class="feature">
+            <img src="Icons/Reliable.png" alt="Reliable">
+            <h3>Reliable</h3>
+            <p>All links that try to disseminate spam, viruses and malware are deleted</p>
+        </div>
+
+        <div class="feature">
+            <img src="Icons/Devices.png" alt="Devices">
+            <h3>Devices</h3>
+            <p>Compatible with smartphones, tablets and desktop</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="Script.js"></script>
+</body>
+</html>
